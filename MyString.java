@@ -27,7 +27,7 @@ public class MyString {
     /** Returns true if str1 is a subset string str2, false otherwise
      *  Examples:
      *  subsetOf("sap","space") returns true
-     *  subsetOf("spa","space") returns false
+     *  subsetOf("spa","space") returns true
      *  subsetOf("pass","space") returns false
      *  subsetOf("c","space") returns true
      *
