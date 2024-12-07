@@ -111,10 +111,10 @@ public class Scrabble {
 			if (isWordInDictionary(input)) {
 				score += wordScore(input);
 				hand = MyString.remove(hand,input);
-				System.out.println( input + " earned " + wordScore(input) + " points. Score: " + score + " points");
+				System.out.println( input + " earned " + wordScore(input) + " points. Score: " + score + " points\n");
 			}
 			else {
-				System.out.println("No such word in the dictionary. Try again.");
+				System.out.println("Invalid word. Try again.");
 			}
 		}
 		System.out.println("Ran out of letters. Total score: " + score + " points");
@@ -154,7 +154,7 @@ public class Scrabble {
 		////testScrabbleScore();
 		////testCreateHands();
 		////testPlayHands();
-		playGame();
+		////playGame();
 	}
 
 	public static void testBuildingTheDictionary() {
